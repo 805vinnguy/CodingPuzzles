@@ -3,15 +3,15 @@
 using namespace std;
 
 int main() {
-    long n;
-    long m;
-    long a;
+    long long n;
+    long long m;
+    long long a;
     cin >> n >> m >> a;
-    long nflagstones = n / a;
+    long long nflagstones = n / a;
     if(n % a != 0) {
         nflagstones++;
     }
-    long mflagstones = m / a;
+    long long mflagstones = m / a;
     if(m % a != 0) {
         mflagstones++;
     }
